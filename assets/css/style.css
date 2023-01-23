@@ -173,7 +173,7 @@ Menu
 */
 
 .menu {
-  padding: 5rem 0;
+  padding: 5rem 0 0;
 }
 .title {
   text-align: center;
@@ -190,6 +190,8 @@ Menu
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 .filter-btn {
   background: transparent;
