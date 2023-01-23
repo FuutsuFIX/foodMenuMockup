@@ -80,7 +80,8 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.logo) {
+img:not(.logo),
+img:not(.divider) {
   width: 100%;
 }
 img {
@@ -179,12 +180,13 @@ Menu
   text-align: center;
   margin-bottom: 2rem;
 }
-.underline {
-  width: 5rem;
-  height: 0.25rem;
-  background: var(--clr-gold);
+.divider {
+  width: 100%;
+  max-width: 16rem;
   margin-left: auto;
   margin-right: auto;
+  filter: invert(61%) sepia(97%) saturate(209%) hue-rotate(357deg)
+    brightness(88%) contrast(87%);
 }
 .btn-container {
   margin-bottom: 4rem;
